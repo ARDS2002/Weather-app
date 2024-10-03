@@ -1,0 +1,111 @@
+body {
+    background-image: url(img/sky2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#map {
+    height: 400px;
+    width: 900px;
+}
+
+.container .modal-content {
+    background-color: rgba(27, 44, 79, 0.5);
+    border: none;
+    box-shadow: none;
+}
+
+.modal-content {
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+#search-bar {
+    width: 600px;
+    max-width: 600px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: auto
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#btnSearch{
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(10, 134, 119);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: "Arvo", serif;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow:
+        0 0 20px #00cc00,
+        0 0 30px #00cc00,
+        0 0 40px #009900;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.weatherIcon {
+    transition: transform 0.5s ease;
+}
+
+.weatherIcon:hover {
+    transform: scale(1.2);
+}
+
+#forecast {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cent {
+    text-align: center;
+}
+
+.nav-link.text-body-secondary,
+.text-center.text-body-secondary {
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+
+.neon {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 80px;
+    color: #00fff2;
+    text-shadow:
+        0 0 5px #00ff00,
+        0 0 10px #00ff00,
+        0 0 20px #00cc00,
+        0 0 30px #00cc00,
+        0 0 40px #009900;
+}
