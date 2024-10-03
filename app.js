@@ -171,4 +171,14 @@ function forecastAuto(locationName) {
         })
 
 }
+function handleKeyPress(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        findWeather();
+    }
+}
+document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("search-bar");
+    input.addEventListener("keypress", handleKeyPress);
+});
 findWeather();
